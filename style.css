@@ -1,3 +1,81 @@
+@font-face {
+  font-family: BebasNeue; /* set name */
+  src: url(BebasNeue-Regular.ttf); /* url of the font */
+}
+
+
 html{
-    background-color:steelblue;
+ 
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#left-section {
+  font-family:"BebasNeue", sans-serif;
+  position: absolute;
+  background-color: orange;
+  width: 40vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url(images/background.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#right-section {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: steelblue;
+  width: 60vw;
+  height: 100vh;
+}
+
+
+#logo-background {
+  width: 100%;
+  height: 30%;
+  background-color: black;
+  opacity: 50%;
+  margin-top: 10%;
+}
+
+#logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#logo img {
+  width: 300px;
+  height: auto;
+}
+
+#logo-text {
+  color: white;
+  font-size: 4rem;
+  text-shadow: 1px 1px black;
+
+}
+
+#links a,
+#links {
+  font-size: 36px;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+}
+
+#links a:visited, #links a {
+  color: rgb(211, 140, 33);
 }
