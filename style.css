@@ -28,6 +28,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  overflow:hidden;
 }
 
 #logo-background {
@@ -81,6 +82,7 @@ body {
   flex-direction:column;
   min-width:0;
   min-height:0;
+  overflow:hidden;
 }
 
 #container-header{
@@ -127,6 +129,14 @@ input{
   width:20rem;
   height:2rem;
 }
+input:focus{
+  outline:none;
+}
+input[type="email"]{
+  
+}
+
+
 form{
   display:flex;
   flex-direction:column; 
